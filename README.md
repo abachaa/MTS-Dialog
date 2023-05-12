@@ -14,7 +14,7 @@ This repository contains the data and source code for the EACL 2023 paper:
 - The source code for the summarization of doctor-patient conversations and the automatic generation of clinical notes. 
 - Manual fact-based annotations of 400 automatic summaries and 100 reference notes created for the correlation study between automatic metrics and human judgment.  
 
-Release Date: May 10, 2023
+Release Date: May 15, 2023
 
 
 ## <h3>Contact</h3>
