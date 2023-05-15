@@ -64,11 +64,18 @@ The augmented dataset consists of 3.6k pairs of medical conversations and associ
 
 We provide the [full augmented training set](https://github.com/abachaa/MTS-Dialog/blob/main/Augmented-Data/MTS-Dialog-Augmented-TrainingSet-3-FR-and-ES-3603-Pairs-final.csv) that we used in the experiments, as well as the separate datasets created using the [French](https://github.com/abachaa/MTS-Dialog/blob/main/Augmented-Data/MTS-Dialog-Augmented-TrainingSet-1-En-FR-EN-2402-Pairs.csv) and [Spanish](https://github.com/abachaa/MTS-Dialog/blob/main/Augmented-Data/MTS-Dialog-Augmented-TrainingSet-2-EN-ES-EN-2402-Pairs.csv) translation models. 
 
-<h3>Source Code</h2>
+<h2>Source Code</h2>
 The source code for the summarization of doctor-patient conversations and the automatic generation of clinical notes. 
 
-<h3>Manual Annotations</h2>
-Manual fact-based annotations of 400 automatic summaries and 100 reference notes created for the correlation study between automatic metrics and human judgment, as described in the paper (cf. Section 5.2 and Section 5.3).  
+<h2>Manual Scores for Correlation Study</h2>
+[Manual fact-based scores](https://github.com/abachaa/MTS-Dialog/blob/main/ManualScores/MTS-Dialog-Manual-Scores4CorrelationStudy.csv)  for the evaluation of [400 automatic summaries](https://github.com/abachaa/MTS-Dialog/blob/main/ManualScores/MTS-Dialog-Automatic-Summaries-ValidationSet.csv) generated using four summarization models from the validation set of 100 conversations and notes. 
+
+- The Factual P/R/F1 Scores, Hallucination and Omission Rates, and Levenshtein Edit Distance are computed based on the fact-based manual counts and correction. 
+
+- We used the manual scores to evaluate the performance of several evaluation metrics (e.g., ROUGE, BERTScore, and BLEURT) by computing the Pearson’s correlation coefficients between the automatic and manual scores, as described in the paper (cf. Section 5.2 and Section 5.3). 
+
+- We provide all the data needed to perform this correlation study on other evaluation metrics. 
+
 
 <h2>Challenges & Evaluation Scripts</h2>
 
