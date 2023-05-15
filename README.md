@@ -68,13 +68,14 @@ We provide the [full augmented training set](https://github.com/abachaa/MTS-Dial
 The source code for the summarization of doctor-patient conversations and the automatic generation of clinical notes. 
 
 <h2>Manual Scores for Correlation Study</h2>
-[Manual fact-based scores](https://github.com/abachaa/MTS-Dialog/blob/main/ManualScores/MTS-Dialog-Manual-Scores4CorrelationStudy.csv)  for the evaluation of [400 automatic summaries](https://github.com/abachaa/MTS-Dialog/blob/main/ManualScores/MTS-Dialog-Automatic-Summaries-ValidationSet.csv) generated using four summarization models from the validation set of 100 conversations and notes. 
+
+- Manual fact-based scores for the evaluation of 400 automatic summaries generated using four summarization models from the validation set of 100 conversations and notes. 
 
 - The Factual P/R/F1 Scores, Hallucination and Omission Rates, and Levenshtein Edit Distance are computed based on the fact-based manual counts and correction. 
 
-- We used the manual scores to evaluate the performance of several evaluation metrics (e.g., ROUGE, BERTScore, and BLEURT) by computing the Pearson’s correlation coefficients between the automatic and manual scores, as described in the paper (cf. Section 5.2 and Section 5.3). 
+- We used the manual scores to evaluate the performance of several evaluation metrics (e.g., ROUGE, BERTScore, and BLEURT) by computing the Pearson's correlation coefficients between the automatic and manual scores, as described in the paper (cf. Section 5.2 and Section 5.3). 
 
-- We provide all the data needed to perform this correlation study on other evaluation metrics. 
+- We provide all the [data](https://github.com/abachaa/MTS-Dialog/tree/main/Correlation-Study) needed to perform this correlation study on other evaluation metrics. 
 
 
 <h2>Challenges & Evaluation Scripts</h2>
