@@ -60,7 +60,9 @@ The full list of normalized section headers:
         20. labs
 
 <h3>Augmented dataset</h2>
-The augmented dataset consists of 3.6k pairs of medical conversations and associated summaries created via back-translation, as described in the paper (cf. Section 4.2).  
+The augmented dataset consists of 3.6k pairs of medical conversations and associated summaries created from the original 1.2k training pairs via back-translation using two languages French and Spanish, as described in the paper (cf. Section 4.2).  
+
+We provide the [full augmented training set](https://github.com/abachaa/MTS-Dialog/blob/main/Augmented-Data/MTS-Dialog-Augmented-TrainingSet-3-FR-and-ES-3603-Pairs-final.csv) that we used in the experiments, as well as the separate datasets created using the [French](https://github.com/abachaa/MTS-Dialog/blob/main/Augmented-Data/MTS-Dialog-Augmented-TrainingSet-1-En-FR-EN-2402-Pairs.csv) and [Spanish](https://github.com/abachaa/MTS-Dialog/blob/main/Augmented-Data/MTS-Dialog-Augmented-TrainingSet-2-EN-ES-EN-2402-Pairs.csv) translation models. 
 
 <h3>Source Code</h2>
 The source code for the summarization of doctor-patient conversations and the automatic generation of clinical notes. 
