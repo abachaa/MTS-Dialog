@@ -92,6 +92,6 @@ The source code for the summarization of doctor-patient conversations and the au
 
 ----
 
-Release Date: all data and code will be released by May 19, 2023.
+Release Date: all data and code will be released by May 26, 2023.
 
 ----
