@@ -59,7 +59,7 @@ The full list of normalized section headers:
         19. other_history
         20. labs
 
-<h3>Augmented dataset</h2>
+<h3>Augmented dataset</h3>
 The augmented dataset consists of 3.6k pairs of medical conversations and associated summaries created from the original 1.2k training pairs via back-translation using two languages French and Spanish, as described in the paper (cf. Section 4.2).  
 
 We provide the [full augmented training set](https://github.com/abachaa/MTS-Dialog/blob/main/Augmented-Data/MTS-Dialog-Augmented-TrainingSet-3-FR-and-ES-3603-Pairs-final.csv) that we used in the experiments, as well as the separate datasets created using the [French](https://github.com/abachaa/MTS-Dialog/blob/main/Augmented-Data/MTS-Dialog-Augmented-TrainingSet-1-En-FR-EN-2402-Pairs.csv) and [Spanish](https://github.com/abachaa/MTS-Dialog/blob/main/Augmented-Data/MTS-Dialog-Augmented-TrainingSet-2-EN-ES-EN-2402-Pairs.csv) translation models. 
@@ -85,13 +85,11 @@ The source code for the summarization of doctor-patient conversations and the au
 - MEDIQA-Sum 2023: https://github.com/ImageCLEF/2023_ImageCLEFmed_Mediqa 
 
 
+## <h2>License</h2>
+- This work is published under a Creative Commons Attribution 4.0 International Licence (CC BY). https://creativecommons.org/licenses/by/4.0/
+
 ## <h2>Contact</h2>
 
     -  Asma Ben abacha (abenabacha at microsoft dot com)
      - Wen-wai Yim (yimwenwai at microsoft dot com)
-
-----
-
-Release Date: all data and code will be released by May 26, 2023.
-
 ----
