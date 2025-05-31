@@ -5,22 +5,6 @@ This repository contains the data and source code for the EACL 2023 paper: [An E
     - An Empirical Study of Clinical Note Generation from Doctor-Patient Encounters. 
     - Asma Ben Abacha, Wen-wai Yim, Yadan Fan and Thomas Lin. 
     - EACL, May 3-5, 2023, Dubrovnik, Croatia. 
-    
-        @inproceedings{mts-dialog,
-          title     = {An Empirical Study of Clinical Note Generation from Doctor-Patient Encounters},
-            author = "Ben Abacha, Asma  and
-              Yim, Wen-wai  and
-              Fan, Yadan  and
-              Lin, Thomas",
-            booktitle = "Proceedings of the 17th Conference of the European Chapter of the Association for Computational Linguistics",
-            month = may,
-            year = "2023",
-            address = "Dubrovnik, Croatia",
-            publisher = "Association for Computational Linguistics",
-            url = "https://aclanthology.org/2023.eacl-main.168",
-            pages = "2291--2302"
-        }
-    
 
 <h2>Datasets, Code & Annotations</h2>
 
@@ -86,7 +70,22 @@ The source code for the summarization of doctor-patient conversations and the au
 
 
 ## <h2>License</h2>
-- This work is published under a Creative Commons Attribution 4.0 International Licence (CC BY). https://creativecommons.org/licenses/by/4.0/
+- This work is published under a Creative Commons Attribution 4.0 International License ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)). Please cite our paper: 
+
+         @inproceedings{mts-dialog,
+          title     = {An Empirical Study of Clinical Note Generation from Doctor-Patient Encounters},
+            author = "Ben Abacha, Asma  and
+              Yim, Wen-wai  and
+              Fan, Yadan  and
+              Lin, Thomas",
+            booktitle = "Proceedings of the 17th Conference of the European Chapter of the Association for Computational Linguistics",
+            month = may,
+            year = "2023",
+            address = "Dubrovnik, Croatia",
+            publisher = "Association for Computational Linguistics",
+            url = "https://aclanthology.org/2023.eacl-main.168",
+            pages = "2291--2302"
+        }
 
 ## <h2>Contact</h2>
 
